@@ -11,7 +11,7 @@ urlpatterns = [
     url(r'^email-verification$',
         TemplateView.as_view(template_name="email_verification.html"),
         name='email-verification'),
-    url(r'^login$', TemplateView.as_view(template_name="login.html"),
+    url(r'^login', TemplateView.as_view(template_name="login.html"),
         name='login'),
     url(r'^logout$', TemplateView.as_view(template_name="logout.html"),
         name='logout'),
